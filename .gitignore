@@ -1,0 +1,25 @@
+# Local runtime binaries and helper tools
+*.exe
+node.exe
+tools-node.exe
+tools-rg.exe
+node_repl-local.exe
+sandbox-setup.exe
+
+# Browser / Codex temporary files
+chrome-profile/
+asar-js/
+outputs/
+app-session.js
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Office lock files
+~$*
+
+# Dependencies, if installed later
+node_modules/

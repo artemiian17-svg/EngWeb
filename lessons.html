@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Уроки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="lessons">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">УРОКИ</p>
+      <h1>Подборка коротких практических уроков</h1>
+      <p class="lead">Здесь можно просматривать уроки для английского, испанского, немецкого и французского языков. Создание и удаление уроков доступно только авторизованному сотруднику.</p>
+    </section>
+
+    <section class="section-block hidden" id="lesson-admin-section">
+      <div class="section-heading">
+        <p class="eyebrow">ДОБАВЛЕНИЕ УРОКА</p>
+        <h2>Создать новый урок</h2>
+      </div>
+      <form class="form-card" id="lesson-form" novalidate>
+        <label>
+          <span>Язык</span>
+          <select id="lesson-language">
+            <option value="">Выберите язык</option>
+            <option value="Английский">Английский</option>
+            <option value="Испанский">Испанский</option>
+            <option value="Немецкий">Немецкий</option>
+            <option value="Французский">Французский</option>
+          </select>
+        </label>
+        <p class="field-error hidden" id="lesson-language-error">Выберите язык.</p>
+        <label>
+          <span>Уровень</span>
+          <input id="lesson-level" type="text" placeholder="Например: Beginner">
+        </label>
+        <p class="field-error hidden" id="lesson-level-error">Укажите уровень не короче 2 символов.</p>
+        <label>
+          <span>Название урока</span>
+          <input id="lesson-title" type="text">
+        </label>
+        <p class="field-error hidden" id="lesson-title-error">Название должно быть не короче 4 символов.</p>
+        <label>
+          <span>Длительность</span>
+          <input id="lesson-duration" type="text" placeholder="Например: 15 минут">
+        </label>
+        <p class="field-error hidden" id="lesson-duration-error">Укажите длительность.</p>
+        <label>
+          <span>Цель урока</span>
+          <textarea id="lesson-goal" rows="4"></textarea>
+        </label>
+        <p class="field-error hidden" id="lesson-goal-error">Цель должна быть не короче 10 символов.</p>
+        <label>
+          <span>Задания</span>
+          <textarea id="lesson-tasks" rows="4" placeholder="Каждое задание с новой строки"></textarea>
+        </label>
+        <p class="field-error hidden" id="lesson-tasks-error">Добавьте хотя бы 1 задание.</p>
+        <div class="action-row form-actions">
+          <button class="button solid" id="lesson-submit" type="submit" disabled>СОЗДАТЬ УРОК</button>
+        </div>
+        <p class="form-note" id="lesson-status">Заполните форму урока.</p>
+      </form>
+      <div class="submission-card hidden" id="lesson-result"></div>
+    </section>
+
+    <section class="section-block hidden" id="lesson-access-note">
+      <div class="submission-card">
+        <p class="eyebrow">ОГРАНИЧЕНИЕ ДОСТУПА</p>
+        <h3>Создание и удаление уроков доступно только сотруднику</h3>
+        <p>Обычный пользователь может просматривать доступные уроки, но не может изменять учебный контент.</p>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">СПИСОК УРОКОВ</p>
+        <h2>Все доступные уроки</h2>
+      </div>
+      <div class="lessons-grid" id="lessons-list"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="lessons.js"></script>
+</body>
+</html>

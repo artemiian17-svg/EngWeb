@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="CioRIJxKRQikmowqNyJm">
+    <mxGraphModel dx="772" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Пользователь открывает страницу контактов" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Вводит ФИО, телефон, email и сообщение" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Проверка корректности полей" vertex="1">
+          <mxGeometry height="110" width="100" x="480" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Показ сообщения об ошибке" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Формирование объекта заявки" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Добавление даты создания" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Сохранение заявки в локальном хранилище" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="4gt__TK9rgHFJ6cvKo4E-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Отображение результата пользователю" vertex="1">
+          <mxGeometry height="60" width="120" x="470" y="1120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,2553 @@
+﻿FULL PROGRAM LISTING
+
+===== index.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Практика иностранных языков</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="hero-banner">
+      <div class="hero-copy">
+        <p class="eyebrow">ПРАКТИКА ИНОСТРАННЫХ ЯЗЫКОВ</p>
+        <h1>Переходите от правил к живому общению</h1>
+        <p class="lead">
+          LingoFlux помогает регулярно практиковать английский, испанский, немецкий и французский
+          через мини-уроки, разговорные сценарии и упражнения на закрепление слов.
+        </p>
+        <div class="action-row">
+          <a class="button solid" href="services.html">СМОТРЕТЬ УСЛУГИ</a>
+          <a class="button ghost" href="lessons.html">ОТКРЫТЬ УРОКИ</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <span>СЕГОДНЯШНЯЯ ПРАКТИКА</span>
+          <strong>TRAVEL SPEAKING</strong>
+          <p>8 слов, 1 диалог, 1 короткое упражнение на перевод и произношение.</p>
+        </div>
+        <div class="hero-card accent">
+          <span>АКТИВНОСТЬ</span>
+          <strong>16 ДНЕЙ ПОДРЯД</strong>
+          <p>Небольшой, но постоянный темп помогает быстрее закреплять язык.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">ПРЕИМУЩЕСТВА</p>
+        <h2>Сильные стороны и ключевые ценности сервиса</h2>
+      </div>
+      <div class="card-grid">
+        <article class="feature-card">
+          <h3>Практический подход</h3>
+          <p>Каждый модуль строится вокруг жизненных ситуаций: путешествия, работа, встречи и повседневное общение.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Короткие занятия</h3>
+          <p>Уроки рассчитаны на 10–15 минут и легко встраиваются в ежедневный график без перегрузки.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Наглядный прогресс</h3>
+          <p>Пользователь с первых минут видит структуру обучения и получает быстрый опыт взаимодействия с контентом.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block tinted">
+      <div class="section-heading">
+        <p class="eyebrow">НАПРАВЛЕНИЯ</p>
+        <h2>Языки и навыки, которые развивает платформа</h2>
+      </div>
+      <div class="language-wrap">
+        <div class="pill-row">
+          <button class="language-pill active" data-language="Английский">АНГЛИЙСКИЙ</button>
+          <button class="language-pill" data-language="Испанский">ИСПАНСКИЙ</button>
+          <button class="language-pill" data-language="Немецкий">НЕМЕЦКИЙ</button>
+          <button class="language-pill" data-language="Французский">ФРАНЦУЗСКИЙ</button>
+        </div>
+        <div class="language-panel">
+          <p>Выбранное направление</p>
+          <strong id="language-output">Английский</strong>
+          <span>Лексика, грамматика, аудирование и разговорная практика по уровням подготовки.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">ФОРМАТЫ</p>
+        <h2>Что можно делать на платформе уже сейчас</h2>
+      </div>
+      <div class="card-grid">
+        <article class="feature-card">
+          <h3>Проходить уроки</h3>
+          <p>Подборка коротких модулей по уровням и жизненным сценариям с конкретной учебной целью.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Выбирать услуги</h3>
+          <p>Разговорная практика, лексические тренировки, аудирование и персональная траектория обучения.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Читать блог</h3>
+          <p>Материалы о дисциплине обучения, эффективной практике и подготовке к реальным ситуациям общения.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">БЫСТРЫЙ СТАРТ</p>
+        <h2>Попробуйте платформу бесплатно</h2>
+      </div>
+      <div class="cta-panel">
+        <div>
+          <p class="lead compact">Получите пробный доступ к основным сценариям практики и начните заниматься уже сегодня.</p>
+        </div>
+        <a class="button solid" href="contacts.html">ОСТАВИТЬ ЗАЯВКУ</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>
+
+===== services.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Услуги</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="services">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">УСЛУГИ</p>
+      <h1>Программы практики иностранных языков</h1>
+      <p class="lead"><strong>LingoFlux предлагает практические форматы занятий, ориентированные на реальное использование языка и устойчивый прогресс.</strong></p>
+    </section>
+
+    <section class="section-block">
+      <div class="service-grid">
+        <article class="service-item detailed">
+          <span class="meta-text">ФОРМАТ 01</span>
+          <h3>Разговорные мини-сессии</h3>
+          <p>Краткие сценарии общения по темам путешествий, работы, знакомств и повседневной жизни.</p>
+          <ul class="service-points">
+            <li>Уровни: A1–B2</li>
+            <li>Длительность: 15 минут</li>
+            <li>Фокус: речь и реакция в диалоге</li>
+          </ul>
+          <a class="button ghost" href="lessons.html">ПЕРЕЙТИ К УРОКАМ</a>
+        </article>
+        <article class="service-item detailed">
+          <span class="meta-text">ФОРМАТ 02</span>
+          <h3>Словарные тренировки</h3>
+          <p>Закрепление новой лексики через повторение, перевод, ассоциации и короткие задания на употребление.</p>
+          <ul class="service-points">
+            <li>Темы: travel, work, daily life</li>
+            <li>Длительность: 10 минут</li>
+            <li>Фокус: активный словарь</li>
+          </ul>
+          <a class="button ghost" href="lessons.html">НАЧАТЬ ТРЕНИРОВКУ</a>
+        </article>
+        <article class="service-item detailed">
+          <span class="meta-text">ФОРМАТ 03</span>
+          <h3>Практика аудирования</h3>
+          <p>Прослушивание реплик различной сложности и работа с естественным темпом речи носителей.</p>
+          <ul class="service-points">
+            <li>Уровни: A2–C1</li>
+            <li>Длительность: 12–20 минут</li>
+            <li>Фокус: понимание и разбор фраз</li>
+          </ul>
+          <a class="button ghost" href="contacts.html">ПОЛУЧИТЬ ДОСТУП</a>
+        </article>
+        <article class="service-item detailed">
+          <span class="meta-text">ФОРМАТ 04</span>
+          <h3>Грамматические упражнения</h3>
+          <p>Отработка правил в прикладном формате без перегрузки теорией и длинными таблицами.</p>
+          <ul class="service-points">
+            <li>Темы: времена, модальные формы, артикли</li>
+            <li>Длительность: 10–15 минут</li>
+            <li>Фокус: применение в контексте</li>
+          </ul>
+          <a class="button ghost" href="blog.html">УЗНАТЬ БОЛЬШЕ</a>
+        </article>
+        <article class="service-item detailed">
+          <span class="meta-text">ФОРМАТ 05</span>
+          <h3>Индивидуальная траектория</h3>
+          <p>Подбор языкового направления, нагрузки и приоритетных тем под конкретные цели пользователя.</p>
+          <ul class="service-points">
+            <li>Цели: путешествия, работа, переезд</li>
+            <li>Старт: после входной заявки</li>
+            <li>Фокус: персональный маршрут</li>
+          </ul>
+          <a class="button solid" href="contacts.html">ОСТАВИТЬ ЗАЯВКУ</a>
+        </article>
+        <article class="service-item detailed service-highlight">
+          <span class="meta-text">ПОДХОД</span>
+          <h3>Как реализованы услуги на сайте</h3>
+          <p>Публичная часть знакомит с форматами обучения, уроки дают быстрый вход в практику, а форма контактов позволяет запросить индивидуальный маршрут.</p>
+          <a class="button ghost" href="contacts.html">СВЯЗАТЬСЯ С НАМИ</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
+===== lessons.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Уроки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="lessons">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">УРОКИ</p>
+      <h1>Подборка коротких практических уроков</h1>
+      <p class="lead">Здесь можно просматривать уроки для английского, испанского, немецкого и французского языков. Создание и удаление уроков доступно только авторизованному сотруднику.</p>
+    </section>
+
+    <section class="section-block hidden" id="lesson-admin-section">
+      <div class="section-heading">
+        <p class="eyebrow">ДОБАВЛЕНИЕ УРОКА</p>
+        <h2>Создать новый урок</h2>
+      </div>
+      <form class="form-card" id="lesson-form" novalidate>
+        <label>
+          <span>Язык</span>
+          <select id="lesson-language">
+            <option value="">Выберите язык</option>
+            <option value="Английский">Английский</option>
+            <option value="Испанский">Испанский</option>
+            <option value="Немецкий">Немецкий</option>
+            <option value="Французский">Французский</option>
+          </select>
+        </label>
+        <p class="field-error hidden" id="lesson-language-error">Выберите язык.</p>
+        <label>
+          <span>Уровень</span>
+          <input id="lesson-level" type="text" placeholder="Например: Beginner">
+        </label>
+        <p class="field-error hidden" id="lesson-level-error">Укажите уровень не короче 2 символов.</p>
+        <label>
+          <span>Название урока</span>
+          <input id="lesson-title" type="text">
+        </label>
+        <p class="field-error hidden" id="lesson-title-error">Название должно быть не короче 4 символов.</p>
+        <label>
+          <span>Длительность</span>
+          <input id="lesson-duration" type="text" placeholder="Например: 15 минут">
+        </label>
+        <p class="field-error hidden" id="lesson-duration-error">Укажите длительность.</p>
+        <label>
+          <span>Цель урока</span>
+          <textarea id="lesson-goal" rows="4"></textarea>
+        </label>
+        <p class="field-error hidden" id="lesson-goal-error">Цель должна быть не короче 10 символов.</p>
+        <label>
+          <span>Задания</span>
+          <textarea id="lesson-tasks" rows="4" placeholder="Каждое задание с новой строки"></textarea>
+        </label>
+        <p class="field-error hidden" id="lesson-tasks-error">Добавьте хотя бы 1 задание.</p>
+        <div class="action-row form-actions">
+          <button class="button solid" id="lesson-submit" type="submit" disabled>СОЗДАТЬ УРОК</button>
+        </div>
+        <p class="form-note" id="lesson-status">Заполните форму урока.</p>
+      </form>
+      <div class="submission-card hidden" id="lesson-result"></div>
+    </section>
+
+    <section class="section-block hidden" id="lesson-access-note">
+      <div class="submission-card">
+        <p class="eyebrow">ОГРАНИЧЕНИЕ ДОСТУПА</p>
+        <h3>Создание и удаление уроков доступно только сотруднику</h3>
+        <p>Обычный пользователь может просматривать доступные уроки, но не может изменять учебный контент.</p>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">СПИСОК УРОКОВ</p>
+        <h2>Все доступные уроки</h2>
+      </div>
+      <div class="lessons-grid" id="lessons-list"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="lessons.js"></script>
+</body>
+</html>
+
+===== blog.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Блог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="blog">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">БЛОГ</p>
+      <h1>Публикации о практике языка и учебных подходах</h1>
+      <p class="lead">Здесь собраны материалы о том, как выстраивать регулярные занятия, закреплять лексику и быстрее переходить к живому общению.</p>
+    </section>
+
+    <section class="section-block">
+      <div class="blog-grid" id="blog-list"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>
+
+===== post.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Публикация</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="blog">
+  <div id="site-header"></div>
+
+  <main class="page narrow-page">
+    <section class="section-block article-shell" id="post-shell"></section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="post.js"></script>
+</body>
+</html>
+
+===== contacts.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Контакты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contacts">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">КОНТАКТЫ</p>
+      <h1>Свяжитесь с нами для старта обучения</h1>
+      <p class="lead">Оставьте заявку, и мы подберем удобный формат практики и нужное языковое направление.</p>
+    </section>
+
+    <section class="contact-layout">
+      <div class="section-block">
+        <div class="contact-info">
+          <h2>Контактная информация</h2>
+          <ul class="plain-list">
+            <li><strong>График работы:</strong> Пн–Пт, 10:00–19:00</li>
+            <li><strong>Телефон:</strong> +7 (812) 555-24-18</li>
+            <li><strong>E-mail:</strong> hello@lingoflux.ru</li>
+            <li><strong>Адрес:</strong> Санкт-Петербург, Невский пр., 42</li>
+          </ul>
+        </div>
+      </div>
+
+      <section class="section-block">
+        <form class="form-card" id="contact-form" novalidate>
+          <label>
+            <span>ФИО</span>
+            <input id="contact-name" type="text" required>
+          </label>
+          <p class="field-error hidden" id="contact-name-error">Введите ФИО не короче 5 символов.</p>
+          <label>
+            <span>Контактный номер телефона</span>
+            <input id="contact-phone" type="tel" required>
+          </label>
+          <p class="field-error hidden" id="contact-phone-error">Введите корректный телефон.</p>
+          <label>
+            <span>Адрес электронной почты</span>
+            <input id="contact-email" type="email" required>
+          </label>
+          <p class="field-error hidden" id="contact-email-error">Введите корректный email.</p>
+          <label>
+            <span>Сообщение</span>
+            <textarea id="contact-message" rows="6" required></textarea>
+          </label>
+          <p class="field-error hidden" id="contact-message-error">Сообщение должно быть не короче 10 символов.</p>
+          <div class="action-row form-actions">
+            <button class="button solid" id="contact-submit" type="submit" disabled>ОТПРАВИТЬ ДАННЫЕ</button>
+            <button class="button ghost" id="contact-preview-button" type="button">ПРЕДПРОСМОТР</button>
+          </div>
+          <p class="form-note" id="contact-status">Заполните все поля формы.</p>
+        </form>
+
+        <div class="submission-card hidden" id="contact-result"></div>
+      </section>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="contact-preview-modal">
+    <div class="modal-backdrop" data-close-contact-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close-contact-modal>x</button>
+      <div id="contact-preview-content"></div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="contacts.js"></script>
+</body>
+</html>
+
+===== login.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Авторизация</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="hidden">
+  <div id="site-header"></div>
+
+  <main class="page auth-page">
+    <section class="section-block auth-block">
+      <div class="section-heading">
+        <p class="eyebrow">СКРЫТЫЙ РАЗДЕЛ</p>
+        <h1>Авторизация сотрудника</h1>
+      </div>
+      <form class="form-card compact-form" id="login-form">
+        <label>
+          <span>Логин</span>
+          <input id="login-name" type="text" autocomplete="username">
+        </label>
+        <label>
+          <span>Пароль</span>
+          <input id="login-password" type="password" autocomplete="current-password">
+        </label>
+        <button class="button solid" id="login-button" type="button">ВОЙТИ</button>
+        <p class="form-note">Демо-доступ: `admin` / `lingoflux2026`</p>
+        <p class="form-note" id="login-status">Используйте служебную учетную запись для доступа к закрытым разделам.</p>
+      </form>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
+
+===== create-post.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Создание публикации</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="create">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">СОЗДАНИЕ ПУБЛИКАЦИИ</p>
+        <h1>Добавление материала в блог</h1>
+      </div>
+      <form class="form-card editor-form" id="post-form" novalidate>
+        <label>
+          <span>Заголовок статьи</span>
+          <input id="post-title" type="text" required>
+        </label>
+        <p class="field-error hidden" id="post-title-error">Заголовок должен быть не короче 4 символов.</p>
+        <label>
+          <span>Краткое описание</span>
+          <input id="post-summary" type="text" placeholder="Короткий анонс публикации">
+        </label>
+        <label>
+          <span>Содержание</span>
+          <textarea id="post-body" rows="12" required placeholder="Поддерживается простая markdown-разметка: **жирный**, *курсив*, списки через -"></textarea>
+        </label>
+        <p class="field-error hidden" id="post-body-error">Текст публикации должен быть не короче 20 символов.</p>
+        <div class="file-row">
+          <label class="button ghost file-button" for="post-file">ДОБАВИТЬ ФАЙЛ</label>
+          <input id="post-file" type="file" accept="image/*,.pdf,.doc,.docx,.txt" hidden>
+          <span id="file-name">Файл не выбран</span>
+        </div>
+        <div class="attachment-preview hidden" id="attachment-preview"></div>
+        <div class="action-row form-actions">
+          <button class="button ghost" id="preview-button" type="button">ПРЕДПРОСМОТР</button>
+          <button class="button solid" id="publish-button" type="submit" disabled>ОТПРАВИТЬ</button>
+        </div>
+        <p class="form-note" id="post-status">Заполните заголовок и содержание публикации.</p>
+      </form>
+
+      <div class="submission-card hidden" id="post-result"></div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">СОХРАНЕННЫЕ ПУБЛИКАЦИИ</p>
+        <h2>Текущий список постов</h2>
+      </div>
+      <div class="blog-grid" id="editor-post-list"></div>
+    </section>
+  </main>
+
+  <div class="modal hidden" id="preview-modal">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" data-close-modal>x</button>
+      <div id="preview-content"></div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="create-post.js"></script>
+</body>
+</html>
+
+===== requests.html =====
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LingoFlux | Заявки пользователей</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="requests">
+  <div id="site-header"></div>
+
+  <main class="page">
+    <section class="page-intro">
+      <p class="eyebrow">ЗАЯВКИ ПОЛЬЗОВАТЕЛЕЙ</p>
+      <h1>Список обращений из формы обратной связи</h1>
+      <p class="lead">Здесь отображаются все данные, отправленные через страницу контактов.</p>
+    </section>
+
+    <section class="section-block">
+      <div class="request-grid" id="request-list"></div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="main.js"></script>
+  <script src="data-service.js"></script>
+  <script src="requests.js"></script>
+</body>
+</html>
+
+===== styles.css =====
+
+:root {
+  --bg: #f5efe4;
+  --paper: rgba(255, 249, 239, 0.88);
+  --paper-strong: #fffaf3;
+  --text: #1d1b18;
+  --muted: #61574c;
+  --line: rgba(29, 27, 24, 0.1);
+  --accent: #d9622b;
+  --accent-dark: #b54a1a;
+  --teal: #0f7974;
+  --danger: #b53d2d;
+  --shadow: 0 24px 80px rgba(77, 54, 26, 0.12);
+  --radius-xl: 32px;
+  --radius-lg: 24px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(217, 98, 43, 0.18), transparent 28%),
+    radial-gradient(circle at 85% 18%, rgba(15, 121, 116, 0.18), transparent 22%),
+    linear-gradient(180deg, #fffaf4 0%, var(--bg) 46%, #eddfc8 100%);
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button, input, textarea, select { font: inherit; }
+.page, .site-header-inner, .site-footer-inner { width: min(1180px, calc(100% - 28px)); margin: 0 auto; }
+.page { padding: 116px 0 52px; }
+.narrow-page { width: min(900px, calc(100% - 28px)); }
+.site-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 30;
+  backdrop-filter: blur(16px);
+  background: rgba(255, 249, 240, 0.84);
+  border-bottom: 1px solid var(--line);
+}
+.site-header-inner, .menu-links, .brand, .action-row, .pill-row, .file-row, .card-actions { display: flex; }
+.site-header-inner {
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 84px;
+}
+.brand { align-items: center; gap: 12px; text-decoration: none; }
+.brand-mark {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), #eb8c45);
+}
+.brand-text, h1, h2, h3, .hero-card strong, .language-panel strong { font-family: "Space Grotesk", sans-serif; }
+.brand-text { font-weight: 700; letter-spacing: 0.04em; }
+.menu-links { align-items: center; gap: 26px; }
+.menu-links a, .menu-links button.link-button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--text);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+.menu-links a.active { color: var(--teal); }
+.header-controls { display: flex; align-items: center; gap: 12px; }
+.menu-toggle {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.54);
+  cursor: pointer;
+}
+.menu-toggle span, .menu-toggle::before, .menu-toggle::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 2px;
+  margin: 0 auto;
+  background: var(--text);
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+.menu-toggle::before { transform: translateY(-5px); }
+.menu-toggle::after { transform: translateY(5px); }
+.menu-toggle.open::before { transform: translateY(2px) rotate(45deg); }
+.menu-toggle.open span { opacity: 0; }
+.menu-toggle.open::after { transform: translateY(-2px) rotate(-45deg); }
+.hero-banner, .section-block, .hero-card, .feature-card, .service-item, .blog-card, .form-card, .contact-info, .request-card, .article-shell, .cta-panel, .lesson-card, .submission-card, .attachment-preview, .file-box {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+.hero-banner {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  padding: 34px;
+}
+.hero-copy, .hero-visual { display: grid; gap: 18px; }
+.hero-visual { align-content: start; }
+.eyebrow {
+  margin: 0;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+h1 { margin: 0; font-size: clamp(2.7rem, 5vw, 5rem); line-height: 0.95; }
+h2 { margin: 0; font-size: clamp(1.9rem, 3vw, 3rem); line-height: 1.02; }
+h3 { margin: 0 0 10px; font-size: 1.3rem; }
+.lead, .feature-card p, .hero-card p, .service-item p, .blog-card p, .form-note, .contact-info li, .article-body, .request-card p, .lesson-card p, .submission-card p, .attachment-preview p, .file-box p, .preview-stack p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+.lead { font-size: 1.02rem; }
+.lead.compact { margin: 0; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 180ms ease, background 180ms ease;
+}
+.button:hover { transform: translateY(-2px); }
+.button.solid { background: var(--accent); color: #fff; }
+.button.solid:hover { background: var(--accent-dark); }
+.button.ghost { background: rgba(255, 255, 255, 0.48); border-color: var(--line); }
+.button:disabled { cursor: not-allowed; opacity: 0.55; transform: none; }
+.hero-card, .feature-card, .service-item, .blog-card, .request-card, .contact-info, .article-shell, .cta-panel, .form-card, .lesson-card, .submission-card, .attachment-preview, .file-box { padding: 24px; }
+.hero-card.accent { background: linear-gradient(135deg, rgba(15, 121, 116, 0.18), rgba(255, 250, 243, 0.86)); }
+.hero-card span, .meta-text, .meta-inline {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--teal);
+  font-weight: 800;
+}
+.hero-card strong { font-size: 1.7rem; }
+.section-block { margin-top: 24px; padding: 30px; }
+.section-block.tinted { background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 239, 223, 0.88)); }
+.section-heading { display: grid; gap: 10px; margin-bottom: 20px; }
+.card-grid, .blog-grid, .request-grid, .service-list, .service-grid, .lessons-grid { display: grid; gap: 18px; }
+.card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.service-list, .request-grid, .lessons-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.blog-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.service-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.language-wrap { display: grid; gap: 18px; }
+.pill-row { flex-wrap: wrap; gap: 12px; }
+.language-pill {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.58);
+  border-radius: 999px;
+  padding: 13px 18px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.language-pill.active { background: var(--teal); border-color: transparent; color: #fff; }
+.language-panel {
+  padding: 24px;
+  border-radius: var(--radius-lg);
+  background: rgba(29, 27, 24, 0.05);
+}
+.language-panel strong { display: block; margin: 10px 0 6px; font-size: 1.6rem; }
+.cta-panel { display: flex; justify-content: space-between; align-items: center; gap: 18px; }
+.page-intro { display: grid; gap: 12px; margin-bottom: 12px; }
+.contact-layout { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 24px; }
+.plain-list, .service-points {
+  padding-left: 20px;
+  margin: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+.plain-list { list-style: none; padding-left: 0; }
+.form-card { display: grid; gap: 16px; }
+.form-card label { display: grid; gap: 8px; }
+.form-card span { font-weight: 700; }
+.form-card input, .form-card textarea, .form-card select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(29, 27, 24, 0.14);
+  background: rgba(255, 255, 255, 0.82);
+}
+.field-error {
+  margin: -6px 0 0;
+  color: var(--danger);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.compact-form { max-width: 520px; }
+.auth-page { display: grid; align-items: center; min-height: 100vh; }
+.auth-block { max-width: 700px; margin: 0 auto; }
+.blog-card, .lesson-card { display: grid; gap: 12px; }
+.blog-card { grid-template-rows: auto auto 1fr auto; }
+.blog-thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
+  object-fit: cover;
+  background: linear-gradient(135deg, rgba(217, 98, 43, 0.16), rgba(15, 121, 116, 0.12));
+}
+.article-shell img, .article-shell .blog-thumb { margin: 18px 0; }
+.article-body h1, .article-body h2, .article-body h3 { margin-top: 24px; font-size: 1.5rem; }
+.article-body p, .article-body li { color: var(--muted); line-height: 1.8; }
+.article-body ul { padding-left: 20px; }
+.lesson-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+.lesson-chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(15, 121, 116, 0.1);
+  color: var(--teal);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+.detailed { display: grid; align-content: start; }
+.service-highlight { background: linear-gradient(135deg, rgba(15, 121, 116, 0.14), rgba(255, 248, 238, 0.92)); }
+.form-actions, .card-actions { gap: 12px; flex-wrap: wrap; }
+.preview-stack, .submission-card, .attachment-preview { display: grid; gap: 8px; }
+.file-row { align-items: center; gap: 14px; flex-wrap: wrap; }
+.file-button { width: fit-content; }
+.modal.hidden, .hidden { display: none; }
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(11, 17, 20, 0.54);
+}
+.modal-panel {
+  position: relative;
+  width: min(760px, calc(100% - 24px));
+  max-height: calc(100vh - 48px);
+  overflow: auto;
+  margin: 24px auto;
+  padding: 26px;
+  border-radius: 28px;
+  background: var(--paper-strong);
+  box-shadow: var(--shadow);
+}
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: 0;
+  background: rgba(29, 27, 24, 0.06);
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.site-footer { padding: 0 0 34px; }
+.site-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px 28px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(255, 248, 238, 0.84);
+  box-shadow: var(--shadow);
+}
+.footer-note { color: var(--muted); line-height: 1.7; }
+.empty-state {
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  background: rgba(29, 27, 24, 0.04);
+  color: var(--muted);
+}
+@media (max-width: 980px) {
+  .hero-banner, .contact-layout, .cta-panel, .site-footer-inner {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .card-grid, .service-list, .blog-grid, .request-grid, .service-grid, .lessons-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 760px) {
+  .menu-toggle { display: block; }
+  .menu-links {
+    position: absolute;
+    left: 14px;
+    right: 14px;
+    top: calc(100% + 10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    border-radius: 24px;
+    background: rgba(255, 250, 244, 0.96);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow);
+  }
+  .menu-links.open { display: flex; }
+  .hero-banner, .section-block { padding: 22px; }
+  .hero-banner { grid-template-columns: 1fr; }
+  .card-grid, .service-list, .blog-grid, .request-grid, .service-grid, .lessons-grid { grid-template-columns: 1fr; }
+  .page { width: min(100% - 18px, 100%); padding-top: 102px; }
+  .action-row, .file-row, .card-actions { flex-direction: column; align-items: stretch; }
+}
+
+===== main.js =====
+
+const STORAGE_KEYS = {
+  posts: "lingoflux-posts",
+  requests: "lingoflux-requests",
+  auth: "lingoflux-auth",
+  lessons: "lingoflux-lessons",
+  app: "lingoflux-app-store",
+};
+
+const AUTH_QUERY_VALUE = "granted";
+const AUTH_COOKIE_NAME = "lingoflux_auth";
+const DB_NAME = "lingoflux-nosql";
+const DB_VERSION = 1;
+const DB_STORE_NAME = "appState";
+const DB_RECORD_KEY = "primary";
+
+const DEFAULT_POSTS = [
+  {
+    id: "post-1",
+    title: "Как перейти от изучения слов к реальной речи",
+    body: "**Главная ошибка** начинающих состоит в том, что слова учатся отдельно от контекста.\n\n- Используйте короткие диалоги.\n- Повторяйте лексику в готовых фразах.\n- Возвращайтесь к словам через 2-3 дня.\n\nТак язык быстрее становится рабочим инструментом.",
+    date: "2026-04-27",
+    image: "",
+  },
+  {
+    id: "post-2",
+    title: "Почему короткие занятия работают лучше марафонов",
+    body: "Регулярность важнее редких интенсивов. **15 минут в день** дают устойчивую привычку и уменьшают перегрузку.\n\nТакая модель особенно удобна для взрослых пользователей, совмещающих обучение с работой.",
+    date: "2026-04-24",
+    image: "",
+  },
+  {
+    id: "post-3",
+    title: "Три шага для практики английского перед поездкой",
+    body: "Перед путешествием важно потренировать **типовые диалоги**.\n\n- Вопросы в аэропорту.\n- Бронирование и заселение.\n- Заказ еды и уточнение маршрута.\n\nТакой набор дает быстрый прикладной результат и снижает стресс в поездке.",
+    date: "2026-04-22",
+    image: "",
+  },
+  {
+    id: "post-4",
+    title: "Как не бросить язык после первой недели",
+    body: "Секрет в том, чтобы не строить обучение вокруг больших обещаний.\n\nЛучше зафиксировать **один короткий ритуал**: открыть урок утром, пройти мини-упражнение днем или повторить лексику вечером. Постоянство важнее объема.",
+    date: "2026-04-20",
+    image: "",
+  },
+];
+
+const DEFAULT_LESSONS = [
+  {
+    id: "lesson-1",
+    level: "Beginner",
+    title: "Знакомство и первый small talk",
+    duration: "12 минут",
+    language: "Английский",
+    goal: "Научиться представляться, задавать простые вопросы и поддерживать короткий диалог.",
+    tasks: ["Прочитать 8 фраз", "Повторить 6 реплик", "Собрать мини-диалог"],
+  },
+  {
+    id: "lesson-2",
+    level: "Intermediate",
+    title: "Путешествие: аэропорт и регистрация",
+    duration: "18 минут",
+    language: "Английский",
+    goal: "Отработать лексику и типовые вопросы для перемещения по аэропорту.",
+    tasks: ["Лексика по теме", "Диалог в аэропорту", "Проверка понимания"],
+  },
+  {
+    id: "lesson-3",
+    level: "Beginner",
+    title: "Испанский для кафе и заказов",
+    duration: "14 минут",
+    language: "Испанский",
+    goal: "Научиться заказывать блюда, уточнять состав и вежливо общаться с персоналом.",
+    tasks: ["5 ключевых конструкций", "Меню и ингредиенты", "Практика реплик"],
+  },
+  {
+    id: "lesson-4",
+    level: "Upper-Intermediate",
+    title: "Рабочая встреча на немецком",
+    duration: "20 минут",
+    language: "Немецкий",
+    goal: "Закрепить лексику делового общения и вежливые формулировки на встречах.",
+    tasks: ["Фразы для начала встречи", "Согласование действий", "Итоговое упражнение"],
+  },
+];
+
+const APP_DEFAULT_STATE = {
+  posts: DEFAULT_POSTS,
+  requests: [],
+  lessons: DEFAULT_LESSONS,
+  auth: false,
+};
+
+const storageBridge = (() => {
+  const memoryStore = {};
+
+  function readWindowName() {
+    try {
+      return window.name ? JSON.parse(window.name) : {};
+    } catch (error) {
+      return {};
+    }
+  }
+
+  function writeWindowName(payload) {
+    try {
+      window.name = JSON.stringify(payload);
+    } catch (error) {
+      window.name = "";
+    }
+  }
+
+  function canUseLocalStorage() {
+    try {
+      const probe = "__lingoflux_probe__";
+      window.localStorage.setItem(probe, "1");
+      window.localStorage.removeItem(probe);
+      return true;
+    } catch (error) {
+      return false;
+    }
+  }
+
+  const localStorageEnabled = canUseLocalStorage();
+
+  function getItem(key) {
+    if (localStorageEnabled) {
+      return window.localStorage.getItem(key);
+    }
+
+    const payload = readWindowName();
+    if (Object.prototype.hasOwnProperty.call(payload, key)) {
+      return payload[key];
+    }
+    if (Object.prototype.hasOwnProperty.call(memoryStore, key)) {
+      return memoryStore[key];
+    }
+    return null;
+  }
+
+  function setItem(key, value) {
+    if (localStorageEnabled) {
+      window.localStorage.setItem(key, value);
+      return;
+    }
+
+    const payload = readWindowName();
+    payload[key] = value;
+    memoryStore[key] = value;
+    writeWindowName(payload);
+  }
+
+  return {
+    getItem,
+    setItem,
+    canUseLocalStorage,
+  };
+})();
+
+function safeJsonParse(value, fallback) {
+  try {
+    return value ? JSON.parse(value) : fallback;
+  } catch (error) {
+    return fallback;
+  }
+}
+
+function cloneDefaultState() {
+  return JSON.parse(JSON.stringify(APP_DEFAULT_STATE));
+}
+
+function normalizeState(value) {
+  return {
+    posts: Array.isArray(value?.posts) ? value.posts : [...DEFAULT_POSTS],
+    requests: Array.isArray(value?.requests) ? value.requests : [],
+    lessons: Array.isArray(value?.lessons) ? value.lessons : [...DEFAULT_LESSONS],
+    auth: value?.auth === true,
+  };
+}
+
+function dispatchStoreEvent(name) {
+  document.dispatchEvent(new CustomEvent(name, { detail: { source: "appState" } }));
+}
+
+function setCookieAuth(value) {
+  try {
+    document.cookie = `${AUTH_COOKIE_NAME}=${value ? "true" : "false"}; path=/; max-age=2592000`;
+  } catch (error) {
+    document.cookie = `${AUTH_COOKIE_NAME}=${value ? "true" : "false"}`;
+  }
+}
+
+function getCookieAuth() {
+  return document.cookie
+    .split(";")
+    .map((item) => item.trim())
+    .some((item) => item === `${AUTH_COOKIE_NAME}=true`);
+}
+
+function hasAuthQuery() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("auth") === AUTH_QUERY_VALUE;
+}
+
+function writeWindowAuth(value) {
+  const payload = safeJsonParse(storageBridge.getItem("__window_auth_state__"), {});
+  payload.authorized = value;
+  storageBridge.setItem("__window_auth_state__", JSON.stringify(payload));
+}
+
+function readWindowAuth() {
+  const payload = safeJsonParse(storageBridge.getItem("__window_auth_state__"), {});
+  return payload.authorized === true;
+}
+
+function readLegacyAuth() {
+  return storageBridge.getItem(STORAGE_KEYS.auth) === "true";
+}
+
+function readLegacyState() {
+  const migrated = cloneDefaultState();
+  const legacyPosts = safeJsonParse(storageBridge.getItem(STORAGE_KEYS.posts), null);
+  const legacyRequests = safeJsonParse(storageBridge.getItem(STORAGE_KEYS.requests), null);
+  const legacyLessons = safeJsonParse(storageBridge.getItem(STORAGE_KEYS.lessons), null);
+
+  if (Array.isArray(legacyPosts) && legacyPosts.length) {
+    migrated.posts = legacyPosts;
+  }
+  if (Array.isArray(legacyRequests)) {
+    migrated.requests = legacyRequests;
+  }
+  if (Array.isArray(legacyLessons) && legacyLessons.length) {
+    migrated.lessons = legacyLessons;
+  }
+  migrated.auth = readLegacyAuth();
+  return migrated;
+}
+
+function mirrorToLegacyStores(store) {
+  storageBridge.setItem(STORAGE_KEYS.app, JSON.stringify(store));
+  storageBridge.setItem(STORAGE_KEYS.posts, JSON.stringify(store.posts));
+  storageBridge.setItem(STORAGE_KEYS.requests, JSON.stringify(store.requests));
+  storageBridge.setItem(STORAGE_KEYS.lessons, JSON.stringify(store.lessons));
+  storageBridge.setItem(STORAGE_KEYS.auth, store.auth ? "true" : "false");
+}
+
+function createDbClient() {
+  if (!("indexedDB" in window)) {
+    return {
+      supported: false,
+      async read() {
+        return null;
+      },
+      async write() {
+        return false;
+      },
+    };
+  }
+
+  function open() {
+    return new Promise((resolve, reject) => {
+      const request = window.indexedDB.open(DB_NAME, DB_VERSION);
+
+      request.onupgradeneeded = () => {
+        const db = request.result;
+        if (!db.objectStoreNames.contains(DB_STORE_NAME)) {
+          db.createObjectStore(DB_STORE_NAME, { keyPath: "id" });
+        }
+      };
+
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+    });
+  }
+
+  async function withStore(mode, callback) {
+    const db = await open();
+    return new Promise((resolve, reject) => {
+      const transaction = db.transaction(DB_STORE_NAME, mode);
+      const store = transaction.objectStore(DB_STORE_NAME);
+      const request = callback(store);
+
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error);
+      transaction.oncomplete = () => db.close();
+      transaction.onerror = () => {
+        db.close();
+        reject(transaction.error);
+      };
+    });
+  }
+
+  return {
+    supported: true,
+    async read() {
+      const record = await withStore("readonly", (store) => store.get(DB_RECORD_KEY));
+      return record?.value || null;
+    },
+    async write(value) {
+      await withStore("readwrite", (store) => store.put({ id: DB_RECORD_KEY, value }));
+      return true;
+    },
+  };
+}
+
+const dbClient = createDbClient();
+let appStore = normalizeState(readLegacyState());
+
+async function persistStore() {
+  mirrorToLegacyStores(appStore);
+  if (dbClient.supported) {
+    try {
+      await dbClient.write(appStore);
+    } catch (error) {
+      console.error("IndexedDB write error:", error);
+    }
+  }
+  dispatchStoreEvent("app-store-updated");
+}
+
+async function hydrateStore() {
+  mirrorToLegacyStores(appStore);
+  if (!dbClient.supported) {
+    dispatchStoreEvent("app-store-ready");
+    return;
+  }
+
+  try {
+    const dbState = await dbClient.read();
+    if (dbState) {
+      appStore = normalizeState(dbState);
+      mirrorToLegacyStores(appStore);
+    } else {
+      await dbClient.write(appStore);
+    }
+  } catch (error) {
+    console.error("IndexedDB read error:", error);
+  }
+
+  dispatchStoreEvent("app-store-ready");
+}
+
+function getPosts() {
+  return [...appStore.posts];
+}
+
+function savePosts(posts) {
+  appStore.posts = Array.isArray(posts) ? posts : [];
+  void persistStore();
+}
+
+function getRequests() {
+  return [...appStore.requests];
+}
+
+function saveRequests(items) {
+  appStore.requests = Array.isArray(items) ? items : [];
+  void persistStore();
+}
+
+function getLessons() {
+  return [...appStore.lessons];
+}
+
+function saveLessons(items) {
+  appStore.lessons = Array.isArray(items) ? items : [];
+  void persistStore();
+}
+
+function isAuthorized() {
+  if (hasAuthQuery()) {
+    return true;
+  }
+  if (appStore.auth === true) {
+    return true;
+  }
+  if (getCookieAuth()) {
+    return true;
+  }
+  return readWindowAuth();
+}
+
+function setAuthorized(value) {
+  appStore.auth = value === true;
+  setCookieAuth(value);
+  writeWindowAuth(value);
+  void persistStore();
+}
+
+function formatDate(isoDate) {
+  const date = new Date(isoDate);
+  if (Number.isNaN(date.getTime())) {
+    return isoDate;
+  }
+  return date.toLocaleDateString("ru-RU", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+function inlineMarkdown(text) {
+  return text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>");
+}
+
+function markdownToHtml(text) {
+  const safe = String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+
+  return safe
+    .split(/\n{2,}/)
+    .map((block) => {
+      if (block.startsWith("- ")) {
+        const items = block
+          .split("\n")
+          .map((line) => line.replace(/^- /, "").trim())
+          .filter(Boolean)
+          .map((line) => `<li>${inlineMarkdown(line)}</li>`)
+          .join("");
+        return `<ul>${items}</ul>`;
+      }
+
+      return `<p>${inlineMarkdown(block.replace(/\n/g, "<br>"))}</p>`;
+    })
+    .join("");
+}
+
+function createHeader() {
+  const page = document.body.dataset.page;
+  const auth = isAuthorized();
+  const navLinks = [
+    { href: "index.html", label: "ГЛАВНАЯ", key: "home" },
+    { href: "services.html", label: "УСЛУГИ", key: "services" },
+    { href: "lessons.html", label: "УРОКИ", key: "lessons" },
+    { href: "blog.html", label: "БЛОГ", key: "blog" },
+    { href: "contacts.html", label: "КОНТАКТЫ", key: "contacts" },
+  ];
+
+  const hiddenLinks = auth
+    ? `
+      <a href="create-post.html?auth=${AUTH_QUERY_VALUE}" class="${location.pathname.endsWith("create-post.html") ? "active" : ""}">ПУБЛИКАЦИИ</a>
+      <a href="requests.html?auth=${AUTH_QUERY_VALUE}" class="${location.pathname.endsWith("requests.html") ? "active" : ""}">ЗАЯВКИ</a>
+    `
+    : "";
+
+  const authControl = auth
+    ? `<button class="link-button" id="logout-button" type="button">ВЫХОД</button>`
+    : `<a href="login.html">ВХОД</a>`;
+
+  return `
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">LF</span>
+          <span class="brand-text">LingoFlux</span>
+        </a>
+        <nav class="menu-links" id="menu-links">
+          ${navLinks.map((link) => `<a href="${link.href}" class="${page === link.key ? "active" : ""}">${link.label}</a>`).join("")}
+          ${hiddenLinks}
+        </nav>
+        <div class="header-controls">
+          ${authControl}
+          <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Меню"><span></span></button>
+        </div>
+      </div>
+    </header>
+  `;
+}
+
+function createFooter() {
+  return `
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div>
+          <strong>LingoFlux</strong>
+          <p class="footer-note">Сервис практики иностранных языков с акцентом на регулярные короткие занятия, живые сценарии общения и удобную траекторию обучения.</p>
+        </div>
+        <div>
+          <strong>Контакты</strong>
+          <p class="footer-note">Пн-Пт, 10:00-19:00<br>+7 (812) 555-24-18<br>hello@lingoflux.ru</p>
+        </div>
+      </div>
+    </footer>
+  `;
+}
+
+function renderShell() {
+  const header = document.getElementById("site-header");
+  const footer = document.getElementById("site-footer");
+
+  if (header) {
+    header.innerHTML = createHeader();
+  }
+  if (footer) {
+    footer.innerHTML = createFooter();
+  }
+
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu-links");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("open");
+      menu.classList.toggle("open");
+    });
+  }
+
+  const logout = document.getElementById("logout-button");
+  if (logout) {
+    logout.addEventListener("click", () => {
+      setAuthorized(false);
+      window.location.href = "index.html";
+    });
+  }
+}
+
+function protectHiddenPage() {
+  if (document.body.dataset.page !== "hidden") {
+    return;
+  }
+
+  if (!isAuthorized() && !location.pathname.endsWith("login.html")) {
+    window.location.href = "login.html";
+  }
+}
+
+protectHiddenPage();
+renderShell();
+const appStoreReady = hydrateStore();
+
+window.appState = {
+  getPosts,
+  savePosts,
+  getRequests,
+  saveRequests,
+  getLessons,
+  saveLessons,
+  isAuthorized,
+  setAuthorized,
+  formatDate,
+  markdownToHtml,
+  authQueryValue: AUTH_QUERY_VALUE,
+  ready: appStoreReady,
+  storageMode: dbClient.supported ? "indexedDB" : (storageBridge.canUseLocalStorage() ? "localStorage" : "window.name"),
+};
+
+===== data-service.js =====
+
+(function () {
+  const state = window.appState;
+
+  function ensureState() {
+    if (!state) {
+      throw new Error("Сервис данных недоступен: appState не инициализирован.");
+    }
+    return state;
+  }
+
+  async function waitReady() {
+    const current = ensureState();
+    if (current.ready && typeof current.ready.then === "function") {
+      await current.ready;
+    }
+    return current;
+  }
+
+  function sortByDateDesc(items) {
+    return [...items].sort((a, b) => new Date(b.date) - new Date(a.date));
+  }
+
+  function createId(prefix) {
+    return `${prefix}-${Date.now()}`;
+  }
+
+  window.appService = {
+    async ready() {
+      return waitReady();
+    },
+    posts: {
+      async list() {
+        const current = await waitReady();
+        return sortByDateDesc(current.getPosts());
+      },
+      async getById(id) {
+        const current = await waitReady();
+        return current.getPosts().find((item) => item.id === id) || null;
+      },
+      async create(payload) {
+        const current = await waitReady();
+        const posts = current.getPosts();
+        const created = {
+          id: createId("post"),
+          title: payload.title,
+          summary: payload.summary || "",
+          body: payload.body,
+          date: new Date().toISOString(),
+          image: payload.image || "",
+          attachment: payload.attachment || null,
+        };
+        posts.unshift(created);
+        current.savePosts(posts);
+        return created;
+      },
+      async remove(id) {
+        const current = await waitReady();
+        const next = current.getPosts().filter((item) => item.id !== id);
+        current.savePosts(next);
+        return true;
+      },
+    },
+    requests: {
+      async list() {
+        const current = await waitReady();
+        return sortByDateDesc(current.getRequests());
+      },
+      async create(payload) {
+        const current = await waitReady();
+        const requests = current.getRequests();
+        const created = {
+          id: createId("request"),
+          fullname: payload.fullname,
+          phone: payload.phone,
+          email: payload.email,
+          message: payload.message,
+          date: new Date().toISOString(),
+        };
+        requests.unshift(created);
+        current.saveRequests(requests);
+        return created;
+      },
+      async remove(id) {
+        const current = await waitReady();
+        const next = current.getRequests().filter((item) => item.id !== id);
+        current.saveRequests(next);
+        return true;
+      },
+    },
+    lessons: {
+      async list() {
+        const current = await waitReady();
+        return current.getLessons();
+      },
+      async create(payload) {
+        const current = await waitReady();
+        const lessons = current.getLessons();
+        const created = {
+          id: createId("lesson"),
+          language: payload.language,
+          level: payload.level,
+          title: payload.title,
+          duration: payload.duration,
+          goal: payload.goal,
+          tasks: payload.tasks,
+        };
+        lessons.unshift(created);
+        current.saveLessons(lessons);
+        return created;
+      },
+      async remove(id) {
+        const current = await waitReady();
+        const next = current.getLessons().filter((item) => item.id !== id);
+        current.saveLessons(next);
+        return true;
+      },
+    },
+    auth: {
+      async login(login, password) {
+        const current = await waitReady();
+        const normalized = String(login || "").trim().toLowerCase();
+        const rawPassword = String(password || "").trim();
+        const success = (normalized === "admin" || normalized === "lingoflux")
+          && (rawPassword === "lingoflux2026" || rawPassword === "admin2026");
+
+        if (success) {
+          current.setAuthorized(true);
+        }
+        return success;
+      },
+      async logout() {
+        const current = await waitReady();
+        current.setAuthorized(false);
+      },
+      async status() {
+        const current = await waitReady();
+        return current.isAuthorized();
+      },
+    },
+  };
+})();
+
+===== home.js =====
+
+const languageButtons = document.querySelectorAll(".language-pill");
+const languageOutput = document.getElementById("language-output");
+
+if (languageButtons.length && languageOutput) {
+  languageButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      languageButtons.forEach((item) => item.classList.remove("active"));
+      button.classList.add("active");
+      languageOutput.textContent = button.dataset.language;
+    });
+  });
+}
+
+===== blog.js =====
+
+const blogState = window.appState || {
+  formatDate(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("ru-RU");
+  },
+};
+
+const blogList = document.getElementById("blog-list");
+
+function getExcerpt(post) {
+  const source = post.summary || post.body || "";
+  return source.replace(/[*#-]/g, "").slice(0, 150);
+}
+
+async function renderBlog() {
+  if (!blogList) {
+    return;
+  }
+
+  const posts = window.appService ? await window.appService.posts.list() : [];
+
+  blogList.innerHTML = posts.length
+    ? posts.map((post) => `
+      <article class="blog-card" data-post-id="${post.id}">
+        ${post.image ? `<img class="blog-thumb" src="${post.image}" alt="${post.title}">` : '<div class="blog-thumb"></div>'}
+        <span class="meta-text">${blogState.formatDate(post.date)}</span>
+        <div>
+          <h3>${post.title}</h3>
+          <p>${getExcerpt(post)}...</p>
+          ${post.attachment ? `<p class="meta-inline">Есть вложение: ${post.attachment.name}</p>` : ""}
+        </div>
+        <div class="card-actions">
+          <a class="button ghost" href="post.html?id=${post.id}">ЧИТАТЬ ПОЛНОСТЬЮ</a>
+          <button class="button ghost delete-post" type="button">УДАЛИТЬ</button>
+        </div>
+      </article>
+    `).join("")
+    : '<div class="empty-state">Публикаций пока нет.</div>';
+
+  document.querySelectorAll(".delete-post").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const card = button.closest("[data-post-id]");
+      const postId = card?.dataset.postId;
+      if (!postId) {
+        return;
+      }
+      if (!window.confirm("Удалить публикацию?")) {
+        return;
+      }
+      if (window.appService) {
+        await window.appService.posts.remove(postId);
+      }
+      await renderBlog();
+    });
+  });
+}
+
+void renderBlog();
+
+document.addEventListener("app-store-ready", () => void renderBlog());
+document.addEventListener("app-store-updated", () => void renderBlog());
+
+===== post.js =====
+
+const postPageState = window.appState || {
+  formatDate(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("ru-RU");
+  },
+  markdownToHtml(text) {
+    const safe = String(text)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    return safe
+      .split(/\n{2,}/)
+      .map((block) => `<p>${block.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>").replace(/\n/g, "<br>")}</p>`)
+      .join("");
+  },
+};
+
+const postShell = document.getElementById("post-shell");
+const params = new URLSearchParams(window.location.search);
+const postId = params.get("id");
+
+function renderAttachment(post) {
+  if (!post.attachment) {
+    return "";
+  }
+  const isImage = post.attachment.type && post.attachment.type.startsWith("image/");
+  if (isImage && post.image) {
+    return "";
+  }
+  return `
+    <div class="file-box">
+      <p><strong>Вложение:</strong> ${post.attachment.name}</p>
+      <a class="button ghost" href="${post.attachment.data}" download="${post.attachment.name}">СКАЧАТЬ ФАЙЛ</a>
+    </div>
+  `;
+}
+
+async function renderPostPage() {
+  if (!postShell) {
+    return;
+  }
+
+  const post = window.appService ? await window.appService.posts.getById(postId) : null;
+
+  postShell.innerHTML = post
+    ? `
+      <p class="eyebrow">ПУБЛИКАЦИЯ</p>
+      <h1>${post.title}</h1>
+      <p class="meta-text">${postPageState.formatDate(post.date)}</p>
+      ${post.summary ? `<p class="lead compact">${post.summary}</p>` : ""}
+      ${post.image ? `<img class="blog-thumb" src="${post.image}" alt="${post.title}">` : ""}
+      ${renderAttachment(post)}
+      <div class="article-body">${postPageState.markdownToHtml(post.body)}</div>
+    `
+    : '<div class="empty-state">Публикация не найдена.</div>';
+}
+
+void renderPostPage();
+
+document.addEventListener("app-store-ready", () => void renderPostPage());
+document.addEventListener("app-store-updated", () => void renderPostPage());
+
+===== contacts.js =====
+
+const contactAppState = window.appState || {
+  formatDate(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("ru-RU");
+  },
+};
+
+const contactForm = document.getElementById("contact-form");
+const contactStatus = document.getElementById("contact-status");
+const contactSubmit = document.getElementById("contact-submit");
+const contactPreviewButton = document.getElementById("contact-preview-button");
+const contactResult = document.getElementById("contact-result");
+const contactPreviewModal = document.getElementById("contact-preview-modal");
+const contactPreviewContent = document.getElementById("contact-preview-content");
+const contactFields = {
+  fullname: document.getElementById("contact-name"),
+  phone: document.getElementById("contact-phone"),
+  email: document.getElementById("contact-email"),
+  message: document.getElementById("contact-message"),
+};
+const contactErrors = {
+  fullname: document.getElementById("contact-name-error"),
+  phone: document.getElementById("contact-phone-error"),
+  email: document.getElementById("contact-email-error"),
+  message: document.getElementById("contact-message-error"),
+};
+
+function getContactPayload() {
+  return {
+    fullname: (contactFields.fullname?.value || "").trim(),
+    phone: (contactFields.phone?.value || "").trim(),
+    email: (contactFields.email?.value || "").trim(),
+    message: (contactFields.message?.value || "").trim(),
+  };
+}
+
+function validateEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function validatePhone(value) {
+  return /^[+\d][\d\s\-()]{5,}$/.test(value);
+}
+
+function setErrorState(element, show) {
+  if (!element) {
+    return;
+  }
+  element.classList.toggle("hidden", !show);
+}
+
+function validateContactForm() {
+  const payload = getContactPayload();
+  const checks = {
+    fullname: payload.fullname.length >= 5,
+    phone: validatePhone(payload.phone),
+    email: validateEmail(payload.email),
+    message: payload.message.length >= 10,
+  };
+
+  setErrorState(contactErrors.fullname, !checks.fullname && payload.fullname.length > 0);
+  setErrorState(contactErrors.phone, !checks.phone && payload.phone.length > 0);
+  setErrorState(contactErrors.email, !checks.email && payload.email.length > 0);
+  setErrorState(contactErrors.message, !checks.message && payload.message.length > 0);
+
+  const valid = Object.values(checks).every(Boolean);
+
+  if (contactSubmit) {
+    contactSubmit.disabled = !valid;
+  }
+
+  if (contactStatus) {
+    if (!payload.fullname && !payload.phone && !payload.email && !payload.message) {
+      contactStatus.textContent = "Заполните все поля формы.";
+    } else if (!valid) {
+      contactStatus.textContent = "Исправьте ошибки в форме.";
+    } else {
+      contactStatus.textContent = "Форма готова к отправке.";
+    }
+  }
+
+  return valid;
+}
+
+function renderContactPreview(payload) {
+  if (!contactPreviewContent || !contactPreviewModal) {
+    return;
+  }
+
+  contactPreviewContent.innerHTML = `
+    <p class="eyebrow">ПРЕДПРОСМОТР ЗАЯВКИ</p>
+    <h2>${payload.fullname || "Без имени"}</h2>
+    <div class="preview-stack">
+      <p><strong>Телефон:</strong> ${payload.phone || "Не указан"}</p>
+      <p><strong>Email:</strong> ${payload.email || "Не указан"}</p>
+      <p><strong>Сообщение:</strong> ${payload.message || "Пусто"}</p>
+    </div>
+  `;
+  contactPreviewModal.classList.remove("hidden");
+}
+
+function closeContactPreview() {
+  if (contactPreviewModal) {
+    contactPreviewModal.classList.add("hidden");
+  }
+}
+
+Object.values(contactFields).forEach((field) => {
+  if (field) {
+    field.addEventListener("input", validateContactForm);
+    field.addEventListener("change", validateContactForm);
+    field.addEventListener("blur", validateContactForm);
+  }
+});
+
+document.querySelectorAll("[data-close-contact-modal]").forEach((element) => {
+  element.addEventListener("click", closeContactPreview);
+});
+
+if (contactPreviewButton) {
+  contactPreviewButton.addEventListener("click", () => {
+    renderContactPreview(getContactPayload());
+  });
+}
+
+if (contactForm) {
+  validateContactForm();
+
+  contactForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!validateContactForm() || !window.appService) {
+      return;
+    }
+
+    const payload = getContactPayload();
+    const request = await window.appService.requests.create(payload);
+
+    if (contactResult) {
+      contactResult.classList.remove("hidden");
+      contactResult.innerHTML = `
+        <p class="eyebrow">ЗАЯВКА ПРИНЯТА</p>
+        <h3>${payload.fullname}</h3>
+        <p><strong>Дата:</strong> ${contactAppState.formatDate(request.date)}</p>
+        <p><strong>Телефон:</strong> ${payload.phone}</p>
+        <p><strong>Email:</strong> ${payload.email}</p>
+        <p><strong>Сообщение:</strong> ${payload.message}</p>
+      `;
+    }
+
+    contactForm.reset();
+    Object.values(contactErrors).forEach((element) => setErrorState(element, false));
+    contactStatus.textContent = "Данные отправлены и сохранены через сервис.";
+    validateContactForm();
+  });
+}
+
+===== login.js =====
+
+(function () {
+  const loginForm = document.getElementById("login-form");
+  const loginButton = document.getElementById("login-button");
+  const loginStatus = document.getElementById("login-status");
+  const loginField = document.getElementById("login-name");
+  const passwordField = document.getElementById("login-password");
+
+  function redirectToHiddenPage() {
+    const target = new URL("create-post.html?auth=granted", window.location.href).toString();
+    window.location.assign(target);
+  }
+
+  async function authorize() {
+    const login = (loginField?.value || "").trim();
+    const password = (passwordField?.value || "").trim();
+
+    if (!window.appService) {
+      if (loginStatus) {
+        loginStatus.textContent = "Сервис авторизации недоступен.";
+      }
+      return;
+    }
+
+    const success = await window.appService.auth.login(login, password);
+    if (success) {
+      if (loginStatus) {
+        loginStatus.textContent = "Авторизация успешна. Выполняется переход...";
+      }
+      redirectToHiddenPage();
+      return;
+    }
+
+    if (loginStatus) {
+      loginStatus.textContent = "Неверный логин или пароль.";
+    }
+  }
+
+  if (loginButton) {
+    loginButton.addEventListener("click", () => {
+      void authorize();
+    });
+  }
+
+  if (loginForm) {
+    loginForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      void authorize();
+    });
+  }
+
+  if (passwordField) {
+    passwordField.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        void authorize();
+      }
+    });
+  }
+})();
+
+===== create-post.js =====
+
+const postAppState = window.appState || {
+  formatDate(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("ru-RU");
+  },
+  markdownToHtml(text) {
+    const safe = String(text)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
+    return safe
+      .split(/\n{2,}/)
+      .map((block) => `<p>${block.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*(.+?)\*/g, "<em>$1</em>").replace(/\n/g, "<br>")}</p>`)
+      .join("");
+  },
+};
+
+const postForm = document.getElementById("post-form");
+const postTitle = document.getElementById("post-title");
+const postSummary = document.getElementById("post-summary");
+const postBody = document.getElementById("post-body");
+const postFile = document.getElementById("post-file");
+const fileName = document.getElementById("file-name");
+const attachmentPreview = document.getElementById("attachment-preview");
+const publishButton = document.getElementById("publish-button");
+const previewButton = document.getElementById("preview-button");
+const postStatus = document.getElementById("post-status");
+const postResult = document.getElementById("post-result");
+const previewModal = document.getElementById("preview-modal");
+const previewContent = document.getElementById("preview-content");
+const titleError = document.getElementById("post-title-error");
+const bodyError = document.getElementById("post-body-error");
+const editorPostList = document.getElementById("editor-post-list");
+
+let fileData = "";
+let fileMeta = null;
+
+function getPostPayload() {
+  return {
+    title: (postTitle?.value || "").trim(),
+    summary: (postSummary?.value || "").trim(),
+    body: (postBody?.value || "").trim(),
+  };
+}
+
+function setErrorState(element, show) {
+  if (!element) {
+    return;
+  }
+  element.classList.toggle("hidden", !show);
+}
+
+function validatePostForm() {
+  const payload = getPostPayload();
+  const titleValid = payload.title.length >= 4;
+  const bodyValid = payload.body.length >= 20;
+  const valid = titleValid && bodyValid;
+
+  setErrorState(titleError, !titleValid && payload.title.length > 0);
+  setErrorState(bodyError, !bodyValid && payload.body.length > 0);
+
+  if (publishButton) {
+    publishButton.disabled = !valid;
+  }
+
+  if (postStatus) {
+    if (!payload.title && !payload.body) {
+      postStatus.textContent = "Заполните заголовок и содержание публикации.";
+    } else if (!valid) {
+      postStatus.textContent = "Исправьте ошибки в форме публикации.";
+    } else {
+      postStatus.textContent = "Публикация готова к отправке.";
+    }
+  }
+
+  return valid;
+}
+
+function renderAttachmentCard() {
+  if (!attachmentPreview) {
+    return;
+  }
+
+  if (!fileMeta) {
+    attachmentPreview.classList.add("hidden");
+    attachmentPreview.innerHTML = "";
+    return;
+  }
+
+  attachmentPreview.classList.remove("hidden");
+  attachmentPreview.innerHTML = `
+    <p class="eyebrow">ПРИКРЕПЛЕНИЕ</p>
+    <p><strong>Файл:</strong> ${fileMeta.name}</p>
+    <p><strong>Тип:</strong> ${fileMeta.type || "не указан"}</p>
+    <p><strong>Размер:</strong> ${Math.ceil(fileMeta.size / 1024)} КБ</p>
+    ${fileMeta.type && fileMeta.type.startsWith("image/") ? `<img class="blog-thumb" src="${fileData}" alt="${fileMeta.name}">` : ""}
+  `;
+}
+
+function buildAttachmentMarkup() {
+  if (!fileMeta) {
+    return "";
+  }
+
+  const isImage = fileMeta.type && fileMeta.type.startsWith("image/");
+  if (isImage) {
+    return `<img class="blog-thumb" src="${fileData}" alt="${fileMeta.name}">`;
+  }
+
+  return `
+    <div class="file-box">
+      <p><strong>Прикрепленный файл:</strong> ${fileMeta.name}</p>
+      <a class="button ghost" href="${fileData}" download="${fileMeta.name}">СКАЧАТЬ ФАЙЛ</a>
+    </div>
+  `;
+}
+
+async function renderEditorPosts() {
+  if (!editorPostList) {
+    return;
+  }
+
+  const posts = window.appService ? await window.appService.posts.list() : [];
+  editorPostList.innerHTML = posts.length
+    ? posts.map((post) => `
+      <article class="blog-card" data-editor-post-id="${post.id}">
+        ${post.image ? `<img class="blog-thumb" src="${post.image}" alt="${post.title}">` : '<div class="blog-thumb"></div>'}
+        <span class="meta-text">${postAppState.formatDate(post.date)}</span>
+        <div>
+          <h3>${post.title}</h3>
+          <p>${(post.summary || post.body || "").replace(/[*#-]/g, "").slice(0, 140)}...</p>
+          ${post.attachment ? `<p class="meta-inline">Вложение: ${post.attachment.name}</p>` : ""}
+        </div>
+        <div class="card-actions">
+          <a class="button ghost" href="post.html?id=${post.id}">ОТКРЫТЬ</a>
+          <button class="button ghost delete-editor-post" type="button">УДАЛИТЬ</button>
+        </div>
+      </article>
+    `).join("")
+    : '<div class="empty-state">Публикаций пока нет.</div>';
+
+  document.querySelectorAll(".delete-editor-post").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const card = button.closest("[data-editor-post-id]");
+      const postId = card?.dataset.editorPostId;
+      if (!postId || !window.confirm("Удалить публикацию?")) {
+        return;
+      }
+      if (window.appService) {
+        await window.appService.posts.remove(postId);
+      }
+      await renderEditorPosts();
+    });
+  });
+}
+
+function openPreview() {
+  const payload = getPostPayload();
+
+  if (!previewContent || !previewModal) {
+    return;
+  }
+
+  previewContent.innerHTML = `
+    <p class="eyebrow">ПРЕДПРОСМОТР</p>
+    <h2>${payload.title || "Без заголовка"}</h2>
+    ${payload.summary ? `<p class="lead compact">${payload.summary}</p>` : ""}
+    ${buildAttachmentMarkup()}
+    <div class="article-body">${postAppState.markdownToHtml(payload.body || "")}</div>
+  `;
+  previewModal.classList.remove("hidden");
+}
+
+function closePreview() {
+  if (previewModal) {
+    previewModal.classList.add("hidden");
+  }
+}
+
+[postTitle, postSummary, postBody].forEach((field) => {
+  if (field) {
+    field.addEventListener("input", validatePostForm);
+    field.addEventListener("change", validatePostForm);
+    field.addEventListener("blur", validatePostForm);
+  }
+});
+
+if (postFile) {
+  postFile.addEventListener("change", () => {
+    const file = postFile.files && postFile.files[0];
+    fileName.textContent = file ? file.name : "Файл не выбран";
+
+    if (!file) {
+      fileData = "";
+      fileMeta = null;
+      renderAttachmentCard();
+      return;
+    }
+
+    fileMeta = {
+      name: file.name,
+      type: file.type,
+      size: file.size,
+    };
+
+    const reader = new FileReader();
+    reader.onload = () => {
+      fileData = reader.result;
+      renderAttachmentCard();
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+if (previewButton) {
+  previewButton.addEventListener("click", openPreview);
+}
+
+document.querySelectorAll("[data-close-modal]").forEach((item) => {
+  item.addEventListener("click", closePreview);
+});
+
+if (postForm) {
+  validatePostForm();
+
+  postForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!validatePostForm() || !window.appService) {
+      return;
+    }
+
+    const payload = getPostPayload();
+    const createdPost = await window.appService.posts.create({
+      title: payload.title,
+      summary: payload.summary,
+      body: payload.body,
+      image: fileMeta && fileMeta.type && fileMeta.type.startsWith("image/") ? fileData : "",
+      attachment: fileMeta ? {
+        name: fileMeta.name,
+        type: fileMeta.type,
+        data: fileData,
+      } : null,
+    });
+
+    if (postResult) {
+      postResult.classList.remove("hidden");
+      postResult.innerHTML = `
+        <p class="eyebrow">ПУБЛИКАЦИЯ СОХРАНЕНА</p>
+        <h3>${createdPost.title}</h3>
+        <p><strong>Дата:</strong> ${postAppState.formatDate(createdPost.date)}</p>
+        ${createdPost.summary ? `<p><strong>Описание:</strong> ${createdPost.summary}</p>` : ""}
+        ${createdPost.attachment ? `<p><strong>Файл:</strong> ${createdPost.attachment.name}</p>` : "<p><strong>Файл:</strong> не прикреплен</p>"}
+      `;
+    }
+
+    postForm.reset();
+    setErrorState(titleError, false);
+    setErrorState(bodyError, false);
+    fileData = "";
+    fileMeta = null;
+    fileName.textContent = "Файл не выбран";
+    renderAttachmentCard();
+    postStatus.textContent = "Публикация сохранена через сервис.";
+    validatePostForm();
+    await renderEditorPosts();
+  });
+}
+
+void renderEditorPosts();
+
+document.addEventListener("app-store-ready", () => void renderEditorPosts());
+document.addEventListener("app-store-updated", () => void renderEditorPosts());
+
+===== requests.js =====
+
+const requestAppState = window.appState || {
+  formatDate(value) {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString("ru-RU");
+  },
+};
+
+const requestList = document.getElementById("request-list");
+
+async function renderRequests() {
+  if (!requestList) {
+    return;
+  }
+
+  const requests = window.appService ? await window.appService.requests.list() : [];
+
+  requestList.innerHTML = requests.length
+    ? requests.map((item) => `
+      <article class="request-card" data-id="${item.id}">
+        <h3>${item.fullname}</h3>
+        <p><strong>Телефон:</strong> ${item.phone}</p>
+        <p><strong>E-mail:</strong> ${item.email}</p>
+        <p><strong>Дата:</strong> ${requestAppState.formatDate(item.date)}</p>
+        <p><strong>Сообщение:</strong> ${item.message}</p>
+        <button class="button ghost delete-request" type="button">УДАЛИТЬ</button>
+      </article>
+    `).join("")
+    : '<div class="empty-state">Новых заявок пока нет.</div>';
+
+  document.querySelectorAll(".delete-request").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const card = button.closest(".request-card");
+      const id = card?.dataset.id;
+      if (!id || !window.confirm("Удалить заявку?")) {
+        return;
+      }
+      if (window.appService) {
+        await window.appService.requests.remove(id);
+      }
+      await renderRequests();
+    });
+  });
+}
+
+void renderRequests();
+
+document.addEventListener("app-store-ready", () => void renderRequests());
+document.addEventListener("app-store-updated", () => void renderRequests());
+
+===== lessons.js =====
+
+const lessonsList = document.getElementById("lessons-list");
+const lessonForm = document.getElementById("lesson-form");
+const lessonSubmit = document.getElementById("lesson-submit");
+const lessonStatus = document.getElementById("lesson-status");
+const lessonResult = document.getElementById("lesson-result");
+const lessonAdminSection = document.getElementById("lesson-admin-section");
+const lessonAccessNote = document.getElementById("lesson-access-note");
+
+const lessonFields = {
+  language: document.getElementById("lesson-language"),
+  level: document.getElementById("lesson-level"),
+  title: document.getElementById("lesson-title"),
+  duration: document.getElementById("lesson-duration"),
+  goal: document.getElementById("lesson-goal"),
+  tasks: document.getElementById("lesson-tasks"),
+};
+
+const lessonErrors = {
+  language: document.getElementById("lesson-language-error"),
+  level: document.getElementById("lesson-level-error"),
+  title: document.getElementById("lesson-title-error"),
+  duration: document.getElementById("lesson-duration-error"),
+  goal: document.getElementById("lesson-goal-error"),
+  tasks: document.getElementById("lesson-tasks-error"),
+};
+
+let canManageLessons = false;
+
+function setLessonError(element, show) {
+  if (!element) {
+    return;
+  }
+  element.classList.toggle("hidden", !show);
+}
+
+function syncLessonAccess() {
+  if (lessonAdminSection) {
+    lessonAdminSection.classList.toggle("hidden", !canManageLessons);
+  }
+  if (lessonAccessNote) {
+    lessonAccessNote.classList.toggle("hidden", canManageLessons);
+  }
+}
+
+function getLessonPayload() {
+  return {
+    language: (lessonFields.language?.value || "").trim(),
+    level: (lessonFields.level?.value || "").trim(),
+    title: (lessonFields.title?.value || "").trim(),
+    duration: (lessonFields.duration?.value || "").trim(),
+    goal: (lessonFields.goal?.value || "").trim(),
+    tasks: (lessonFields.tasks?.value || "")
+      .split("\n")
+      .map((item) => item.trim())
+      .filter(Boolean),
+  };
+}
+
+function validateLessonForm() {
+  const payload = getLessonPayload();
+  const checks = {
+    language: payload.language.length > 0,
+    level: payload.level.length >= 2,
+    title: payload.title.length >= 4,
+    duration: payload.duration.length >= 3,
+    goal: payload.goal.length >= 10,
+    tasks: payload.tasks.length >= 1,
+  };
+
+  setLessonError(lessonErrors.language, !checks.language);
+  setLessonError(lessonErrors.level, !checks.level && payload.level.length > 0);
+  setLessonError(lessonErrors.title, !checks.title && payload.title.length > 0);
+  setLessonError(lessonErrors.duration, !checks.duration && payload.duration.length > 0);
+  setLessonError(lessonErrors.goal, !checks.goal && payload.goal.length > 0);
+  setLessonError(lessonErrors.tasks, !checks.tasks && payload.tasks.length > 0);
+
+  const valid = Object.values(checks).every(Boolean) && canManageLessons;
+  if (lessonSubmit) {
+    lessonSubmit.disabled = !valid;
+  }
+  if (lessonStatus) {
+    if (!canManageLessons) {
+      lessonStatus.textContent = "Создание уроков доступно только авторизованному сотруднику.";
+    } else {
+      lessonStatus.textContent = valid ? "Урок готов к созданию." : "Исправьте ошибки в форме урока.";
+    }
+  }
+  return valid;
+}
+
+async function renderLessons() {
+  if (!lessonsList) {
+    return;
+  }
+
+  const lessons = window.appService ? await window.appService.lessons.list() : [];
+  lessonsList.innerHTML = lessons.length
+    ? lessons.map((lesson) => `
+      <article class="lesson-card" data-lesson-id="${lesson.id}">
+        <div class="lesson-top">
+          <span class="meta-text">${lesson.level}</span>
+          <span class="lesson-chip">${lesson.language}</span>
+        </div>
+        <h3>${lesson.title}</h3>
+        <p>${lesson.goal}</p>
+        <p><strong>Длительность:</strong> ${lesson.duration}</p>
+        <ul class="service-points">
+          ${lesson.tasks.map((task) => `<li>${task}</li>`).join("")}
+        </ul>
+        <div class="card-actions">
+          <a class="button ghost" href="contacts.html">ЗАПИСАТЬСЯ НА ПРАКТИКУ</a>
+          ${canManageLessons ? '<button class="button ghost delete-lesson" type="button">УДАЛИТЬ</button>' : ""}
+        </div>
+      </article>
+    `).join("")
+    : '<div class="empty-state">Уроков пока нет.</div>';
+
+  if (!canManageLessons) {
+    return;
+  }
+
+  document.querySelectorAll(".delete-lesson").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const card = button.closest("[data-lesson-id]");
+      const lessonId = card?.dataset.lessonId;
+      if (!lessonId || !window.confirm("Удалить урок?")) {
+        return;
+      }
+      if (window.appService) {
+        await window.appService.lessons.remove(lessonId);
+      }
+      await renderLessons();
+    });
+  });
+}
+
+async function refreshLessonPermissions() {
+  if (window.appService) {
+    canManageLessons = await window.appService.auth.status();
+  } else {
+    canManageLessons = false;
+  }
+  syncLessonAccess();
+  validateLessonForm();
+  await renderLessons();
+}
+
+Object.values(lessonFields).forEach((field) => {
+  if (field) {
+    field.addEventListener("input", validateLessonForm);
+    field.addEventListener("change", validateLessonForm);
+    field.addEventListener("blur", validateLessonForm);
+  }
+});
+
+if (lessonForm) {
+  validateLessonForm();
+
+  lessonForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    if (!validateLessonForm() || !window.appService || !canManageLessons) {
+      return;
+    }
+
+    const payload = getLessonPayload();
+    const lesson = await window.appService.lessons.create(payload);
+
+    if (lessonResult) {
+      lessonResult.classList.remove("hidden");
+      lessonResult.innerHTML = `
+        <p class="eyebrow">УРОК СОЗДАН</p>
+        <h3>${lesson.title}</h3>
+        <p><strong>Язык:</strong> ${lesson.language}</p>
+        <p><strong>Уровень:</strong> ${lesson.level}</p>
+        <p><strong>Длительность:</strong> ${lesson.duration}</p>
+      `;
+    }
+
+    lessonForm.reset();
+    Object.values(lessonErrors).forEach((element) => setLessonError(element, false));
+    lessonStatus.textContent = "Урок создан через сервис.";
+    validateLessonForm();
+    await renderLessons();
+  });
+}
+
+void refreshLessonPermissions();
+
+document.addEventListener("app-store-ready", () => void refreshLessonPermissions());
+document.addEventListener("app-store-updated", () => void refreshLessonPermissions());
+
