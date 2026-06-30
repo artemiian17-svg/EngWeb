@@ -23,3 +23,8 @@ Thumbs.db
 
 # Dependencies, if installed later
 node_modules/
+
+# C++ / CMake build artifacts
+build/
+cmake-build-*/
+cpp-backend-showcase/build/
